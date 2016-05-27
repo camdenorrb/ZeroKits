@@ -3,4 +3,4 @@ before_script:
 
 clone:
   script:
-   - git push -u origin master
+   - git remote set-url origin git@github.com:justincenteno99/ZeroKits.git
