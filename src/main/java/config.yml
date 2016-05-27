@@ -1,0 +1,20 @@
+
+# ZeroKits Main Configuration
+
+
+# This section here allows you to enable clearing a players inventory before getting a kit
+Clear Inventory before Kit: false
+
+# This section here allows you to enable clearing a players inventory before getting a personal kit
+Clear Inventory before Personal Kit: false
+
+# Here is where you can hook up to Vault and enable economy features
+Vault Integration: false
+
+# You can enable/disable here player private kits
+Enable Personal Kits: true
+
+# Set the language for the plugin here
+# You can make your own and request to post it on the plugin page
+# Example: Taking lang-en.yml, I would put en
+Language: "en"

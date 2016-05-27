@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ZeroKits:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ZeroKits_jar</output-path>
+    <root id="archive" name="ZeroKits.jar">
+      <element id="module-output" name="ZeroKits" />
+    </root>
+  </artifact>
+</component>
