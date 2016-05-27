@@ -1,0 +1,6 @@
+before_script:
+  - apt-get update && apt-get install git
+
+clone:
+  script:
+   - git remote add origin git@github.com:justincenteno99/ZeroKits.git
