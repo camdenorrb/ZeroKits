@@ -1,4 +1,0 @@
-clone:
-  script:
-   - git remote set-url origin git@github.com:justincenteno99/ZeroKits.git
-   - git push -u origin master
