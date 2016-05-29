@@ -1,10 +1,9 @@
-package me.ZeroDown.ZeroKits.Managers;
+package ml.ZeroDown.ZeroKits.Managers;
 
-import me.ZeroDown.ZeroKits.ZeroKits;
+import ml.ZeroDown.ZeroKits.ZeroKits;
 import org.anjocaido.groupmanager.GroupManager;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
-import org.bukkit.plugin.Plugin;
 import ru.tehkode.permissions.bukkit.PermissionsEx;
 
 public class PermissionsManager {

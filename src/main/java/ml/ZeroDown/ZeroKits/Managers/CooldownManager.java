@@ -1,14 +1,8 @@
-package me.ZeroDown.ZeroKits.Managers;
+package ml.ZeroDown.ZeroKits.Managers;
  
 import java.util.HashMap;
 import java.util.Map;
 import java.util.UUID;
-
-import me.ZeroDown.ZeroKits.ZeroKits;
-import org.bukkit.Bukkit;
-import org.bukkit.entity.Player;
-import org.bukkit.plugin.Plugin;
-import org.bukkit.scheduler.BukkitRunnable;
 
 public class CooldownManager {
 

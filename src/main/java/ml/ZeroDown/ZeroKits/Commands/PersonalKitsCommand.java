@@ -3,13 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package me.ZeroDown.ZeroKits.Commands;
+package ml.ZeroDown.ZeroKits.Commands;
 
 import java.io.File;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import me.ZeroDown.ZeroKits.Managers.*;
+import ml.ZeroDown.ZeroKits.Managers.ChatManager;
+import ml.ZeroDown.ZeroKits.Managers.ConfigManager;
+import ml.ZeroDown.ZeroKits.Managers.KitManager;
+import ml.ZeroDown.ZeroKits.Managers.PermissionsManager;
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;

@@ -3,12 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package me.ZeroDown.ZeroKits.Commands;
+package ml.ZeroDown.ZeroKits.Commands;
 
-import jdk.nashorn.internal.runtime.regexp.joni.Config;
-import me.ZeroDown.ZeroKits.Managers.ChatManager;
-import me.ZeroDown.ZeroKits.Managers.ConfigManager;
-import me.ZeroDown.ZeroKits.Managers.PermissionsManager;
+import ml.ZeroDown.ZeroKits.Managers.ChatManager;
+import ml.ZeroDown.ZeroKits.Managers.ConfigManager;
+import ml.ZeroDown.ZeroKits.Managers.PermissionsManager;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;

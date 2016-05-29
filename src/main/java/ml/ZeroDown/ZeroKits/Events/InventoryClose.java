@@ -1,9 +1,9 @@
-package me.ZeroDown.ZeroKits.Events;
+package ml.ZeroDown.ZeroKits.Events;
 
-import me.ZeroDown.ZeroKits.Managers.ChatManager;
-import me.ZeroDown.ZeroKits.Managers.ConfigManager;
-import me.ZeroDown.ZeroKits.Managers.KitManager;
-import me.ZeroDown.ZeroKits.ZeroKits;
+import ml.ZeroDown.ZeroKits.Managers.ChatManager;
+import ml.ZeroDown.ZeroKits.Managers.ConfigManager;
+import ml.ZeroDown.ZeroKits.Managers.KitManager;
+import ml.ZeroDown.ZeroKits.ZeroKits;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;

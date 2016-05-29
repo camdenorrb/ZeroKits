@@ -1,9 +1,8 @@
-package me.ZeroDown.ZeroKits.Commands;
+package ml.ZeroDown.ZeroKits.Commands;
 
-import me.ZeroDown.ZeroKits.Managers.ChatManager;
-import me.ZeroDown.ZeroKits.Managers.ConfigManager;
-import me.ZeroDown.ZeroKits.Managers.KitManager;
-import me.ZeroDown.ZeroKits.Managers.PermissionsManager;
+import ml.ZeroDown.ZeroKits.Managers.ChatManager;
+import ml.ZeroDown.ZeroKits.Managers.KitManager;
+import ml.ZeroDown.ZeroKits.Managers.PermissionsManager;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;

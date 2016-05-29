@@ -3,14 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package me.ZeroDown.ZeroKits.Commands;
+package ml.ZeroDown.ZeroKits.Commands;
 
 import java.io.File;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import me.ZeroDown.ZeroKits.Managers.*;
-import net.milkbowl.vault.chat.Chat;
+import ml.ZeroDown.ZeroKits.Managers.*;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;

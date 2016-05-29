@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package me.ZeroDown.ZeroKits.Managers;
+package ml.ZeroDown.ZeroKits.Managers;
 
 import java.io.File;
 import java.io.IOException;
 import java.util.logging.Level;
 
-import me.ZeroDown.ZeroKits.ZeroKits;
+import ml.ZeroDown.ZeroKits.ZeroKits;
 import org.bukkit.configuration.InvalidConfigurationException;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;

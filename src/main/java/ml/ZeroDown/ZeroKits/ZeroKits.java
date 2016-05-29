@@ -3,15 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package me.ZeroDown.ZeroKits;
+package ml.ZeroDown.ZeroKits;
 
 import java.io.File;
 import java.util.logging.Level;
-import java.util.logging.Logger;
 
-import me.ZeroDown.ZeroKits.Commands.*;
-import me.ZeroDown.ZeroKits.Events.InventoryClick;
-import me.ZeroDown.ZeroKits.Events.InventoryClose;
+import ml.ZeroDown.ZeroKits.Commands.*;
+import ml.ZeroDown.ZeroKits.Events.InventoryClick;
+import ml.ZeroDown.ZeroKits.Events.InventoryClose;
 import net.milkbowl.vault.economy.Economy;
 import net.milkbowl.vault.permission.Permission;
 import org.bukkit.Bukkit;

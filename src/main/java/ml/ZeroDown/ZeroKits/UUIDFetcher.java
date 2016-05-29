@@ -1,4 +1,4 @@
-package me.ZeroDown.ZeroKits;
+package ml.ZeroDown.ZeroKits;
 
 import com.google.common.collect.ImmutableList;
 import org.json.simple.JSONArray;
