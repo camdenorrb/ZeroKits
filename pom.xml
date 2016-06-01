@@ -105,7 +105,7 @@
                                     <excludes>**/*test.class</excludes>
                                 </artifactItem>
                             </artifactItems>
-                            <outputDirectory>${basedir}</outputDirectory>
+                            <outputDirectory>${project.build.outputDirectory}</outputDirectory>
                         </configuration>
                     </execution>
                 </executions>
