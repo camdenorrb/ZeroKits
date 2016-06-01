@@ -6,19 +6,24 @@
 package ml.ZeroDown.ZeroKits;
 
 import java.io.File;
+import java.io.IOException;
 import java.util.logging.Level;
 
+import com.avaje.ebean.Update;
 import ml.ZeroDown.ZeroKits.Commands.*;
 import ml.ZeroDown.ZeroKits.Events.InventoryClick;
 import ml.ZeroDown.ZeroKits.Events.InventoryClose;
 import net.milkbowl.vault.economy.Economy;
 import net.milkbowl.vault.permission.Permission;
 import org.bukkit.Bukkit;
+import org.bukkit.ChatColor;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
+import org.bukkit.entity.Player;
 import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.RegisteredServiceProvider;
 import org.bukkit.plugin.java.JavaPlugin;
+import org.inventivetalent.update.spigot.SpigotUpdater;
 
 /**
  *
@@ -65,6 +70,13 @@ public class ZeroKits extends JavaPlugin {
         }
         registerCommands();
         registerEvents();
+        if (config.getBoolean("Update Messages") == true) {
+            try {
+                new SpigotUpdater(plugin, 23840);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
     }
 
     @Override

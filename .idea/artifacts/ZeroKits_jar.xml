@@ -3,6 +3,7 @@
     <output-path>$PROJECT_DIR$/out/artifacts/ZeroKits_jar</output-path>
     <root id="archive" name="ZeroKits.jar">
       <element id="module-output" name="ZeroKits" />
+      <element id="library" level="project" name="SpigotUpdater_v1.0.1" />
     </root>
   </artifact>
 </component>
