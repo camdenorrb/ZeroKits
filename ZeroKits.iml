@@ -35,6 +35,5 @@
     <orderEntry type="library" name="Maven: net.ess3:EssentialsGroupManager:2.13.1" level="project" />
     <orderEntry type="library" name="Maven: org.projectlombok:lombok:1.12.2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: net.milkbowl.vault:VaultAPI:1.5" level="project" />
-    <orderEntry type="library" name="SpigotUpdater_v1.0.1" level="project" />
   </component>
 </module>
