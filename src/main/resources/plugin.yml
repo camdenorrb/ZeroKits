@@ -2,7 +2,7 @@ name: ZeroKits
 description: A great alternative to Essentials Kits or any other kits plugin!
 version: 1.0
 author: ZeroDown
-main: ml.ZeroDown.ZeroKitsZeroKits
+main: ml.ZeroDown.ZeroKits.ZeroKits
 softdepend: [Vault, PermissionsEX, GroupManager]
 commands:
   createkit:

@@ -1,5 +1,3 @@
-
-
 prefix: '&3[&9&lZero&2&lKits&3]'
 kit-exists: '&cKit &a%e &cexists'
 kit-doesnt-exist: '&cKit &a%e &cdoes not exist'
