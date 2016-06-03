@@ -1,0 +1,35 @@
+name: ZeroKits
+description: A great alternative to Essentials Kits or any other kits plugin!
+version: 1.0
+author: ZeroDown
+main: ml.ZeroDown.ZeroKits.ZeroKits
+softdepend: [Vault, PermissionsEX, GroupManager]
+commands:
+  createkit:
+    description: Create a Kit
+  deletekit:
+    description: Delete a Kit
+  kits:
+    description: List Kits or Get a Kit
+  editkit:
+    description: Edit a Kit
+  previewkit:
+    description: Preview a Kit
+  reloadkit:
+    description: Reload a Kit
+  zerokits:
+    description: Help Menu
+  reloadzerokits:
+    description: Reload ZeroKits
+  pdeletekit:
+    description: Delete a Personal Kit
+  ppreviewkit:
+    description: Preview a Personal Kit
+  pkits:
+    description: List Personal Kits or Get a Personal kit
+  peditkit:
+    description: Edit a Personal Kit
+  pcreatekit:
+    description: Create a Personal Kit
+  preloadkit:
+    description: Reload a Personal Kit
