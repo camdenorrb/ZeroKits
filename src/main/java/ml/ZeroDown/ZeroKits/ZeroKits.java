@@ -9,17 +9,16 @@ import java.io.File;
 import java.io.IOException;
 import java.util.logging.Level;
 
-import com.avaje.ebean.Update;
 import ml.ZeroDown.ZeroKits.Commands.*;
 import ml.ZeroDown.ZeroKits.Events.InventoryClick;
 import ml.ZeroDown.ZeroKits.Events.InventoryClose;
+import ml.ZeroDown.ZeroKits.Events.PlayerInteract;
+import ml.ZeroDown.ZeroKits.Events.SignChange;
 import net.milkbowl.vault.economy.Economy;
 import net.milkbowl.vault.permission.Permission;
 import org.bukkit.Bukkit;
-import org.bukkit.ChatColor;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
-import org.bukkit.entity.Player;
 import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.RegisteredServiceProvider;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -58,12 +57,12 @@ public class ZeroKits extends JavaPlugin {
             setupAltPermissions();
         }
         plugin.saveResource("lang-en.yml", true);
-        langfile = new File("plugins/ZeroKits", "lang-" + config.getString("Language") + ".yml");
+        langfile = new File("plugins/ZeroKits/lang-" + config.getString("Language") + ".yml");
         if (langfile.exists()) {
             language = YamlConfiguration.loadConfiguration(langfile);
             plugin.getLogger().log(Level.INFO, "Language: lang-" + config.getString("Language"));
         } else if (!langfile.exists()) {
-            langfile = new File("plugins/ZeroKits", "lang-en.yml");
+            langfile = new File("plugins/ZeroKits/lang-en.yml");
             language = YamlConfiguration.loadConfiguration(langfile);
             plugin.getLogger().log(Level.WARNING, "Language File doesn't exist! Switching to default English!");
             plugin.getLogger().log(Level.INFO, "Language: lang-" + config.getString("Language"));
@@ -118,7 +117,7 @@ public class ZeroKits extends JavaPlugin {
             plugin.getLogger().log(Level.INFO, "Permissions: GroupManager");
             permissiontype = "GroupManager";
         } else if (Bukkit.getPluginManager().getPlugin("PermissionsEx").isEnabled()) {
-            plugin.getLogger().log(Level.INFO, "Permissions: PemrissionsEx");
+            plugin.getLogger().log(Level.INFO, "Permissions: PermissionsEx");
             permissiontype = "PermissionsEx";
         } else {
             plugin.getLogger().log(Level.WARNING, "You have no permissions plugin! All permissions are removed! Use Vault to implement your permissions plugin!");
@@ -150,6 +149,8 @@ public class ZeroKits extends JavaPlugin {
         plugin.getLogger().log(Level.INFO, "Registering Events");
         Bukkit.getServer().getPluginManager().registerEvents(new InventoryClick(), plugin);
         Bukkit.getServer().getPluginManager().registerEvents(new InventoryClose(), plugin);
+        Bukkit.getServer().getPluginManager().registerEvents(new PlayerInteract(), plugin);
+        Bukkit.getServer().getPluginManager().registerEvents(new SignChange(), plugin);
     }
 
     public static Plugin getPlugin() {
