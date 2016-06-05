@@ -113,10 +113,10 @@ public class ZeroKits extends JavaPlugin {
 
     private void setupAltPermissions() {
         plugin.getLogger().log(Level.WARNING, "Vault isn't enabled, I will be enabling the Alt Permissions API!");
-        if (Bukkit.getPluginManager().getPlugin("GroupManager").isEnabled()) {
+        if (Bukkit.getPluginManager().getPlugin("GroupManager") != null) {
             plugin.getLogger().log(Level.INFO, "Permissions: GroupManager");
             permissiontype = "GroupManager";
-        } else if (Bukkit.getPluginManager().getPlugin("PermissionsEx").isEnabled()) {
+        } else if (Bukkit.getPluginManager().getPlugin("PermissionsEx") != null) {
             plugin.getLogger().log(Level.INFO, "Permissions: PermissionsEx");
             permissiontype = "PermissionsEx";
         } else {
